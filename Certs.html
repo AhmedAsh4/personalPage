@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed's Website</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+</head>
+
+<body class="bg-primary-color">
+    <!-- Navigation bar -->
+    <nav class="p-4 bg-secondary-color">
+        <div class="container flex items-center justify-between mx-auto">
+            <turbo-frame id="loadable" class="animate-fade-in-1">
+                <h3 class="mb-4 text-3xl font-bold text-white">Ahmed
+                    <span class="mb-4 text-3xl font-bold text-text-color1 animate-fade-in-2">Ashraf</span></h3>
+            </turbo-frame>
+            <turbo-frame id="loadable" class="animate-fade-in-menu">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" target="_self" class="text-white hover:underline">Home</a></li>
+                    <li><a href="Certs.html" class="text-white hover:underline">Experience</a></li>
+                    <li><a href="proj.html" class="text-white hover:underline">Projects</a></li>
+                    <li><a href="recs.html" class="text-white hover:underline">Personal Recommendations</a></li>
+                </ul>
+            </turbo-frame>
+        </div>
+    </nav>
+
+    <div class="flex flex-col h-screen ">
+        <h1 class="mt-10 mb-10 text-4xl text-center text-text-color1 animate-fade-in-2">Education & Experience</h1>
+        <div class="container flex items-center mx-auto mb-11">
+            <div class="w-1/2">
+                <div class="animate-slide-left">
+                    <h1 class="mb-4 text-4xl font-bold text-text-color1">MUST University</h1>
+                    <p class="text-3xl text-text-color2">Faculty of Information Technology<br> Department of AI</p>
+                    <p class="text-2xl text-text-color2">October 2020 - July 2024</p>
+                    <p class="text-xl text-text-color2">currently top of my class with a GPA of 3.9</p>
+                </div>
+            </div>
+
+            <div class="w-1/2 text-left">
+                <img src="https://must.edu.eg/wp-content/uploads/2021/09/must-logo.svg" alt="MUST Uni"
+                    class="w-56 h-56 mx-auto rounded-lg shadow-md animate-slide-right">
+            </div>
+
+        </div>
+        <div class="container flex items-center mx-auto mb-11">
+            <!-- Right side with centered text-->
+            <div class="w-1/2">
+                <div class="animate-slide-left">
+                    <h1 class="flex mb-4 text-4xl font-bold text-text-color1">Zewail City</h1>
+                    <p class="flex text-3xl text-text-color2">AI & Its applications</p>
+                    <p class="flex text-2xl text-text-color2">August 2023</p>
+                    <p class="flex text-xl text-text-color2">Training offered by Impact & Zewail City</p>
+                </div>
+            </div>
+        
+            <!-- Left side with centered image -->
+            <div class="w-1/2">
+                <img src="./imgs/Zewail.png" alt="Zewail Uni"
+                    class="w-56 h-56 mx-auto text-left rounded-lg shadow-md animate-slide-right">
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="flex flex-col h-screen mt-11 mb-11">
+        <h1 class="mb-16 text-4xl text-center text-text-color1 animate-fade-in-2">Certificates</h1>
+        <div class="container flex items-center mb-11">
+            <div class="w-1/2 animate-slide-left">
+                <h4 class="mb-3 text-xl text-center text-text-color1"> Data Scientist Professional Certificate, DataCamp
+                </h4>
+                <h6 class="mb-3 text-sm text-center text-text-color2">September 2023 - September 2025</h6>
+                <a class="block h-56 ml-32 w-96" href="https://www.datacamp.com/certificate/DS0025222252991"
+                    target="_blank">
+                    <img src="./imgs/Datacamp.png" alt="Datacamp"
+                        class="h-56 mx-auto rounded-lg shadow-md animate-slide-left w-96"></a>
+            </div>
+
+            <div class="w-1/2 animate-slide-right">
+                <h4 class="mb-3 text-xl text-center text-text-color1"> SQL (advanced), HackerRank</h4>
+                <h6 class="mb-3 text-sm text-center text-text-color2">October 2023</h6>
+                <a class="block h-56 ml-32 w-96" href="https://www.hackerrank.com/certificates/52c122f4dd54"
+                    target="_blank">
+                    <img src="./imgs/sql.png" alt="HackerRank"
+                        class="h-56 mx-auto rounded-lg shadow-md animate-slide-left w-96"></a>
+            </div>
+        </div>
+        <div class="container flex items-center mb-11">
+            <div class="w-1/2 animate-slide-left">
+                <h4 class="mb-3 text-xl text-center text-text-color1"> DeepLearning.AI TensorFlow Developer, Coursera
+                </h4>
+                <h6 class="mb-3 text-sm text-center text-text-color2">December 2022</h6>
+                <a class="block w-56 ml-52 h-44"
+                    href="https://www.coursera.org/account/accomplishments/professional-cert/GK5LQ92ACGCK"
+                    target="_blank">
+                    <img src="./imgs/TensorFlow.png" alt="TensorFlow"
+                        class="w-56 mx-auto rounded-lg shadow-md animate-slide-left h-44"></a>
+            </div>
+
+            <div class="w-1/2 animate-slide-right">
+                <h4 class="mb-3 text-xl text-center text-text-color1"> IBM Data analyst Professional Certificate,
+                    Coursera</h4>
+                <h6 class="mb-3 text-sm text-center text-text-color2">November 2022</h6>
+                <a class="block w-56 h-44" style="margin-left: 13rem;"
+                    href="https://www.coursera.org/account/accomplishments/professional-cert/TM7CD9QLAQGB"
+                    target="_blank">
+                    <img src="./imgs/IBM.png" alt="IBM"
+                        class="w-56 mx-auto rounded-lg shadow-md animate-slide-left h-44"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
